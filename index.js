@@ -18,6 +18,8 @@ function Pet(nome, raca, nomeDono) {
   return arrayPets;
 }
 
+// Utilizando o inquirer para o uusário escolher as opções
+
 function menu() {
   inquirer.prompt(actions).then((choice) => {
     switch (choice.action) {
